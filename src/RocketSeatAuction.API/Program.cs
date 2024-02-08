@@ -53,7 +53,7 @@ builder.Services.AddScoped<IOfferRepository, OfferRepository>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-builder.Services.AddScoped<LoggedUser>();
+builder.Services.AddScoped<ILoggedUser, LoggedUser>();
 
 builder.Services.AddScoped<CreateOfferUseCase>();
 

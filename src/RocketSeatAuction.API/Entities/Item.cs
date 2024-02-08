@@ -15,4 +15,6 @@ public class Item
     public Condition Condition { get; set; }
 
     public decimal BasePrice { get; set; }
+
+    public int AuctionId { get; set; }
 }

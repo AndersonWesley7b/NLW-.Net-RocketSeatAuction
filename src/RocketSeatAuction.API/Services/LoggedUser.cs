@@ -4,7 +4,7 @@ using RocketSeatAuction.API.Repositories;
 
 namespace RocketSeatAuction.API.Services;
 
-public class LoggedUser
+public class LoggedUser : ILoggedUser
 {
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly IUserRepository _userRepository;
